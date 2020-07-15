@@ -167,7 +167,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Byte divide(byte dividend, byte divisor) {
-        int sum=dividend + divisor;
+        int sum=dividend/ divisor;
         return (byte)sum;
     }
 
@@ -229,7 +229,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        int sum=multiplicand* multiplier;
+        return (byte)sum;
     }
 
     /**

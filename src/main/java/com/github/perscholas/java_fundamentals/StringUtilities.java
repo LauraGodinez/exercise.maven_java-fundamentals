@@ -106,10 +106,11 @@ public class StringUtilities {
 
         for (int i = input.length-1; i>=0; i--){
             int x=0;
-            reversed[x]=input[i];
+            reversed[x]=input[i-1];
             x++;
         }
 
         return Arrays.toString(reversed);
     }
 }
+
